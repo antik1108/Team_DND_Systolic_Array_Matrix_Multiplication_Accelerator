@@ -1,0 +1,6 @@
+design,tag,xc7_lut,xc7_lutram,xc7_ff,xc7_dsp,xc7_carry4,ecp5_lut4,ecp5_ff,ecp5_mult18,ecp5_ccu2,fmax_mhz
+Systolic 3x3,systolic_top_N3,173,40,430,9,6,764,814,9,156,98.97
+Systolic 4x4,systolic_top_N4,233,64,789,16,6,1129,1429,16,268,100.5
+Systolic 4x4 (pipelined MAC),systolic_top_N4_pipe,230,64,793,16,6,1141,1689,16,268,127.02
+Sequential 1-MAC (N=3),sequential_matmul_N3,37,40,28,1,4,160,60,1,24,95.13
+Sequential 1-MAC (N=4),sequential_matmul_N4,35,40,28,1,4,161,60,1,24,92.66

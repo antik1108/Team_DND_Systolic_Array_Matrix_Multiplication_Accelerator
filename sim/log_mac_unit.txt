@@ -1,0 +1,79 @@
+VCD info: dumpfile sim/waves/tb_mac_unit.vcd opened for output.
+=== MAC unit directed tests ===
+  PASS pos x pos                    a=   3 b=   4 en=1 clr=0 acc=12
+  PASS neg x pos                    a=  -5 b=   6 en=1 clr=0 acc=-18
+  PASS neg x neg                    a=  -7 b=  -8 en=1 clr=0 acc=38
+  PASS zero operand                 a=   0 b= 100 en=1 clr=0 acc=38
+  PASS enable low holds value       a=  10 b=  10 en=0 clr=0 acc=38
+  PASS max positive                 a= 127 b= 127 en=1 clr=0 acc=16167
+  PASS most negative squared        a=-128 b=-128 en=1 clr=0 acc=32551
+  PASS min x max                    a=-128 b= 127 en=1 clr=0 acc=16295
+  PASS clear has priority           a=   1 b=   1 en=1 clr=1 acc=0
+  PASS accumulate after clear       a=   2 b=   3 en=1 clr=0 acc=6
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=16390
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=32774
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=49158
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=65542
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=81926
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=98310
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=114694
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=131078
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=147462
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=163846
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=180230
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=196614
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=212998
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=229382
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=245766
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=262150
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=278534
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=294918
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=311302
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=327686
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=344070
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=360454
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=376838
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=393222
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=409606
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=425990
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=442374
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=458758
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=475142
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=491526
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=507910
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=524294
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=540678
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=557062
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=573446
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=589830
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=606214
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=622598
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=638982
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=655366
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=671750
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=688134
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=704518
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=720902
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=737286
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=753670
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=770054
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=786438
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=802822
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=819206
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=835590
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=851974
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=868358
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=884742
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=901126
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=917510
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=933894
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=950278
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=966662
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=983046
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=999430
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=1015814
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=1032198
+  PASS long accumulation            a=-128 b=-128 en=1 clr=0 acc=1048582
+=== MAC: 74 tests, 0 errors ===
+RESULT: MAC_UNIT PASSED
+tb/tb_mac_unit.v:58: $finish called at 756000 (1ps)

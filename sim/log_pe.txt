@@ -1,0 +1,20 @@
+VCD info: dumpfile sim/waves/tb_pe.vcd opened for output.
+=== PE directed tests ===
+  PASS operands/valid forwarded after 1 cycle
+  PASS MAC result 11 * -22 = -242
+  PASS v_in=0 does not accumulate
+  PASS data forwarded even when invalid
+  PASS clear zeroes accumulator and valid
+  PASS stream forwarding
+  PASS stream forwarding
+  PASS stream forwarding
+  PASS stream forwarding
+  PASS stream forwarding
+  PASS stream forwarding
+  PASS stream forwarding
+  PASS stream forwarding
+  PASS 8-term dot product matches model
+    dot product = 32442 (expected 32442)
+=== PE: 14 tests, 0 errors ===
+RESULT: PE PASSED
+tb/tb_pe.v:75: $finish called at 126000 (1ps)

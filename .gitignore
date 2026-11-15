@@ -1,0 +1,9 @@
+# local tools / build outputs
+.venv/
+node_modules/
+sim/build/
+synth/build/
+synth/vivado_out/
+report/build.log
+*.aux
+.DS_Store
